@@ -7,6 +7,9 @@ html,body{
 .block-1
 {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .header-flex
@@ -20,7 +23,7 @@ html,body{
     flex: 1, 1, auto;
     width: 150px;
     text-align: right;
-    margin-top: 25px;
+    margin-top: -75px;
 }
 
 .header-flex div a
@@ -39,5 +42,57 @@ html,body{
     font-weight: bold;
     flex: 2, 1, auto;
     width: 600px;
-    margin-top: 0px;
+    margin-top: -100px;
+}
+
+.hero-box
+{
+    margin-left: 130px;
+    margin-top: 50px;
+    flex: 1, 1, auto;
+    display: flex;
+}
+
+.heading-text
+{
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.regular-text
+{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.sign-up
+{
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+}
+
+.hero-box .img-box
+{
+    background-color: #6c747d;
+    margin-top: 50px;
+    text-align: center;
+    padding: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 100px;
 }
